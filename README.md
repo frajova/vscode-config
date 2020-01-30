@@ -17,9 +17,11 @@ You can also run VS Code from the terminal by typing
 Open the terminal and write the next code:
 
 To **see** the extensions:
+
 ```$ code --list-extensions```
 
 To **install** the list of extensions:
+
 ``` $ code --install-extension (here paste de 'Current extensions list')```
 
   
@@ -38,7 +40,7 @@ Shan.code-settings-sync
 SirTori.indenticator
 ```
 
-### Font Family [Fira Code](https://github.com/tonsky/FiraCode)
+### Font Family: [Fira Code](https://github.com/tonsky/FiraCode)
 
 
 ### User Settings
@@ -49,16 +51,16 @@ SirTori.indenticator
 "workbench.iconTheme": "material-icon-theme",
 "editor.renderWhitespace": "all",
 "gitlens.advanced.messages": {
-	"suppressCommitHasNoPreviousCommitWarning": false,
-	"suppressCommitNotFoundWarning": false,
-	"suppressFileNotUnderSourceControlWarning": false,
-	"suppressGitVersionWarning": false,
-	"suppressLineUncommittedWarning": false,
-	"suppressNoRepositoryWarning": false,
-	"suppressResultsExplorerNotice": false,
-	"suppressShowKeyBindingsNotice": true,
-	"suppressUpdateNotice": false,
-	"suppressWelcomeNotice": true
+  "suppressCommitHasNoPreviousCommitWarning": false,
+  "suppressCommitNotFoundWarning": false,
+  "suppressFileNotUnderSourceControlWarning": false,
+  "suppressGitVersionWarning": false,
+  "suppressLineUncommittedWarning": false,
+  "suppressNoRepositoryWarning": false,
+  "suppressResultsExplorerNotice": false,
+  "suppressShowKeyBindingsNotice": true,
+  "suppressUpdateNotice": false,
+  "suppressWelcomeNotice": true
 },
 "explorer.confirmDelete": false,
 "git.enableSmartCommit": true,
@@ -66,8 +68,8 @@ SirTori.indenticator
 "git.confirmSync": false,
 "gitlens.keymap": "alternate",
 "gitlens.codeLens.scopes": [
-	"document",
-	"containers"
+  "document",
+  "containers"
 ],
 "gitlens.hovers.currentLine.over": "line",
 "editor.cursorWidth": 4,
